@@ -1,8 +1,10 @@
 # Markdownlint
 
-[![Travis Build Status](https://travis-ci.org/jonlabelle/SublimeLinter-contrib-markdownlint.svg?branch=master)](https://travis-ci.org/jonlabelle/SublimeLinter-contrib-markdownlint)
+[![Travis Build Status](https://travis-ci.org/jonlabelle/SublimeLinter-contrib-markdownlint.svg?branch=master)](https://travis-ci.org/jonlabelle/SublimeLinter-contrib-markdownlint "Travis Build Status")
 
 > Sublime Text Linter for Markdown/CommonMark files.
+
+![Markdownlint Screenshot](screenshots/screenshot.png "Markdownlint Screenshot")
 
 ## Installation
 
