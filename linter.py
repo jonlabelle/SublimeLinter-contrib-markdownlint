@@ -19,7 +19,6 @@ class Markdownlint(NodeLinter):
     syntax = 'markdown'
     cmd = 'markdownlint'
     npm_name = 'markdownlint-cli'
-    # executable = None
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 1.0'
