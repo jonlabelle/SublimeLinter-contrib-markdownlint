@@ -2,17 +2,17 @@
 
 [![Travis Build Status](https://travis-ci.org/jonlabelle/SublimeLinter-contrib-markdownlint.svg?branch=master)](https://travis-ci.org/jonlabelle/SublimeLinter-contrib-markdownlint "Travis Build Status")
 
-> Sublime Text Linter for Markdown/CommonMark files.
+> A Sublime Text plug-in for linting Markdown/CommonMark files.
 
 ![Markdownlint Screenshot](screenshots/screenshot.png "Markdownlint Screenshot")
 
-## Installation
+## Installing
 
 [SublimeLinter 3] must be installed in order to use this plug-in. If
 SublimeLinter 3 is not installed, please follow the instructions outlined
 [here][installation].
 
-### Linter installation
+### Install Markdownlint
 
 Before using this plug-in, you must ensure that [markdownlint] ([CLI]) is
 installed on your system. To install `markdownlint`, do the following:
@@ -22,11 +22,12 @@ installed on your system. To install `markdownlint`, do the following:
 ```bash
 npm install -g markdownlint-cli
 ```
-3. If you are using `nvm` and `zsh`, ensure that the line to load `nvm` is in `.zshenv` and not `.zshrc`.
-4. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plug-in for `oh-my-zsh`.
+3. If you are using `nvm` and `zsh`, ensure that the line to load `nvm` is in
+   `.zshenv` and not `.zshrc`.
+4. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plug-in for
+   `oh-my-zsh`.
 
-
-### Linter configuration
+### Markdownlint configuration
 
 In order for `markdownlint` to be executed by SublimeLinter, you must ensure
 that its path is available to SublimeLinter. Before going any further, please
@@ -37,14 +38,14 @@ Once you have installed and configured `markdownlint`, you can proceed to
 install the SublimeLinter-contrib-markdownlint plug-in if it is not yet
 installed.
 
-### plug-in installation
+### Install Sublime Text Markdownlint
 
-Please use [Package Control][pc] to install the linter plug-in. This will ensure
-that the plug-in will be updated when new versions are available. If you want to
-install from source so you can modify the source code, you probably know what
-you are doing so we won't cover that here.
+Please use [Package Control][pc] to install Sublime Text Markdownlint. This will
+ensure that the plug-in will be updated when new versions are available. If you
+want to install from source so you can modify the source code, you probably know
+what you are doing so we won't cover that here.
 
-To install via Package Control, do the following:
+To install via [Package Control][pc], do the following:
 
 1. Within Sublime Text, bring up the [Command Palette][cmd] and type `install`.
    Among the commands you should see `Package Control: Install Package`. If that
@@ -85,7 +86,7 @@ Jon LaBelle
 [docs]: http://sublimelinter.readthedocs.org
 [installation]: http://sublimelinter.readthedocs.org/en/latest/installation.html
 [locating-executables]: http://sublimelinter.readthedocs.org/en/latest/usage.html#how-linter-executables-are-located
-[pc]: https://sublime.wbond.net/installation
+[pc]: https://packagecontrol.io/packages/SublimeLinter-contrib-markdownlint
 [cmd]: http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html
 [settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html
 [linter-settings]: http://sublimelinter.readthedocs.org/en/latest/linter_settings.html
