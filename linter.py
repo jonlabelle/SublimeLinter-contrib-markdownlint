@@ -16,7 +16,7 @@ from SublimeLinter.lint import NodeLinter, util
 class Markdownlint(NodeLinter):
     """Provides an interface to markdownlint."""
 
-    syntax = 'markdown'
+    syntax = ('markdown', 'markdown gfm', 'multimarkdown', 'markdown extended')
     cmd = 'markdownlint'
     npm_name = 'markdownlint-cli'
     version_args = '--version'
