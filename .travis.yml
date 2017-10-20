@@ -1,20 +1,16 @@
 sudo: false
 language: python
 
-#
-# limit clone depth to 3, to speed up build:
 git:
   depth: 3
 
 python:
   - "3.3"
 
-# command to install dependencies
 install:
   - pip install flake8
   - pip install pydocstyle
 
-# command to run tests
 script:
   - flake8 . --max-line-length=120
   - pydocstyle . --add-ignore=D202
