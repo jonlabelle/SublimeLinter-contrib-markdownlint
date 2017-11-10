@@ -14,7 +14,7 @@ SublimeLinter 3 is not installed, please follow the instructions outlined
 
 ### Install Markdownlint
 
-Before using this plug-in, you must ensure that [markdownlint] ([CLI]) is
+Before using this plug-in, you must ensure that [markdownlint][CLI] is
 installed on your system. To install `markdownlint`, do the following:
 
 1. Install [Node.js](http://nodejs.org) (and [npm](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) on Linux).
@@ -27,7 +27,7 @@ npm install -g markdownlint-cli
 4. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plug-in for
    `oh-my-zsh`.
 
-### Markdownlint configuration
+### Markdownlint Configuration
 
 In order for `markdownlint` to be executed by SublimeLinter, you must ensure
 that its path is available to SublimeLinter. Before going any further, please
@@ -56,6 +56,12 @@ To install via [Package Control][pc], do the following:
    should see `SublimeLinter-contrib-markdownlint`. If that entry is not
    highlighted, use the keyboard or mouse to select it.
 
+### Sublime Text Markdownlint Configuration
+
+Configuring the plug-in is done through [linter settings][linter-settings].
+
+To ensure `markdownlint` configuration is accessible to the plug-in, use [`chdir` setting] to ensure `markdownlint` is executed relative to your configuration file.
+
 ## Contributing
 
 If you would like to contribute enhancements or fixes, please do the following:
@@ -73,7 +79,7 @@ Please note that modifications should follow these coding guidelines:
 - Vertical whitespace helps readability, don't be afraid to use it.
 - Please use descriptive variable names, no abbreviations unless they are very
   well known.
-  
+
 ## Author
 
 Jon LaBelle
@@ -91,6 +97,7 @@ Jon LaBelle
 [settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html
 [linter-settings]: http://sublimelinter.readthedocs.org/en/latest/linter_settings.html
 [inline-settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html#inline-settings
+[`chdir` setting]: http://sublimelinter.readthedocs.io/en/latest/linter_settings.html#chdir
 [markdownlint]: https://github.com/DavidAnson/markdownlint
 [`markdownlint`]: https://github.com/DavidAnson/markdownlint
 [CLI]: https://github.com/igorshubovych/markdownlint-cli
