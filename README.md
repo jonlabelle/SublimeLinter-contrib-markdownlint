@@ -17,11 +17,11 @@ SublimeLinter 3 is not installed, please follow the instructions outlined
 Before using this plug-in, you must ensure that [markdownlint][CLI] is
 installed on your system. To install `markdownlint`, do the following:
 
-1. Install [Node.js](http://nodejs.org) (and [npm](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) on Linux).
+1. Install [Node.js](http://nodejs.org).
 2. Install `markdownlint` by typing the following in a terminal:
-```bash
-npm install -g markdownlint-cli
-```
+
+    npm install -g markdownlint-cli
+
 3. If you are using `nvm` and `zsh`, ensure that the line to load `nvm` is in
    `.zshenv` and not `.zshrc`.
 4. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plug-in for
@@ -52,6 +52,7 @@ To install via [Package Control][pc], do the following:
    command is not highlighted, use the keyboard or mouse to select it. There
    will be a pause of a few seconds while Package Control fetches the list of
    available plug-ins.
+
 2. When the plug-in list appears, type `markdownlint`. Among the entries you
    should see `SublimeLinter-contrib-markdownlint`. If that entry is not
    highlighted, use the keyboard or mouse to select it.
@@ -60,17 +61,19 @@ To install via [Package Control][pc], do the following:
 
 Configuring the plug-in is done through [linter settings][linter-settings].
 
-To ensure `markdownlint` configuration is accessible to the plug-in, use [`chdir` setting] to ensure `markdownlint` is executed relative to your configuration file.
+To ensure `markdownlint` configuration is accessible to the plug-in, use
+[`chdir` setting] to ensure `markdownlint` is executed relative to your
+configuration file.
 
 ## Contributing
 
 If you would like to contribute enhancements or fixes, please do the following:
 
 1. Fork the plug-in repository.
-1. Hack on a separate topic branch created from the latest `master`.
-1. Commit and push the topic branch.
-1. Make a pull request.
-1. Be patient.
+2. Hack on a separate topic branch created from the latest `master`.
+3. Commit and push the topic branch.
+4. Make a pull request.
+5. Be patient.
 
 Please note that modifications should follow these coding guidelines:
 
