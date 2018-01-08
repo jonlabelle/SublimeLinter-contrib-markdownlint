@@ -3,7 +3,7 @@
 # Linter for SublimeLinter3, a code checking framework for Sublime Text 3
 #
 # Written by Jon LaBelle
-# Copyright (c) 2017 Jon LaBelle
+# Copyright (c) 2018 Jon LaBelle
 #
 # License: MIT
 #
