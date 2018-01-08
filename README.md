@@ -22,7 +22,9 @@ installed on your system. To install `markdownlint`, do the following:
 1. Install [Node.js](http://nodejs.org).
 2. Install `markdownlint` by typing the following in a terminal:
 
-    npm install -g markdownlint-cli
+  ```
+      npm install -g markdownlint-cli
+  ```
 
 3. If you are using `nvm` and `zsh`, ensure that the line to load `nvm` is in
    `.zshenv` and not `.zshrc`.
