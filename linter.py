@@ -22,10 +22,7 @@ class Markdownlint(NodeLinter):
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 1.0'
-    regex = (r'.+?:\s'
-             r'(?P<line>\d+):\s'
-             r'(?P<error>MD\d+)\s'
-             r'(?P<message>.+)')
+    regex = r'.+?[:]\s(?P<line>\d+)[:]\s(?P<error>MD\d+)?[/]?(?P<message>.+)'
     multiline = False
     line_col_base = (1, 1)
     tempfile_suffix = 'md'
