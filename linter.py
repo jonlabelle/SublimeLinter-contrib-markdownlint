@@ -19,7 +19,7 @@ class Markdownlint(NodeLinter):
 
     syntax = ('markdown', 'markdown gfm', 'multimarkdown', 'markdown extended')
     cmd = 'markdownlint'
-    npm_name = 'markdownlint-cli'
+    npm_name = 'markdownlint'
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 0.6.0'
