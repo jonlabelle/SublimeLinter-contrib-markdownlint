@@ -30,10 +30,6 @@ class Markdownlint(NodeLinter):
     # '-' == file must be saved to disk first before linting
     tempfile_suffix = '-'
     error_stream = util.STREAM_STDERR
-    selectors = {}
     word_re = None
-    defaults = {}
-    inline_settings = None
-    inline_overrides = None
     comment_re = r'\s*/[/*]'
     config_file = ('--config', '.markdownlintrc', '~')
