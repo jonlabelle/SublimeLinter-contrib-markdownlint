@@ -10,8 +10,8 @@
 
 ## Installing
 
-[SublimeLinter 3] must be installed in order to use this plug-in. If
-SublimeLinter 3 is not installed, please follow the instructions outlined
+[SublimeLinter] must be installed in order to use this plug-in. If
+SublimeLinter is not installed, please follow the instructions outlined
 [here][installation].
 
 ### Install Markdownlint
@@ -95,7 +95,7 @@ Jon LaBelle
 
 [MIT License]
 
-[SublimeLinter 3]: http://www.sublimelinter.com
+[SublimeLinter]: http://www.sublimelinter.com
 [docs]: http://sublimelinter.readthedocs.org
 [installation]: http://sublimelinter.readthedocs.org/en/latest/installation.html
 [locating-executables]: http://sublimelinter.readthedocs.org/en/latest/usage.html#how-linter-executables-are-located
