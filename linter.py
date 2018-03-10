@@ -27,7 +27,8 @@ class Markdownlint(NodeLinter):
     regex = r'.+?[:]\s(?P<line>\d+)[:]\s(?P<error>MD\d+)?[/]?(?P<message>.+)'
     multiline = False
     line_col_base = (1, 1)
-    tempfile_suffix = 'md'
+    # '-' == file must be saved to disk first before linting
+    tempfile_suffix = '-'
     error_stream = util.STREAM_STDERR
     selectors = {}
     word_re = None
