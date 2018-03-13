@@ -53,7 +53,7 @@ To install via [Package Control][pc], do the following:
 ### Markdownlint Configuration Files
 
 Markdownlint configuration files (`.markdownlintrc`) are resolved first by
-checking the source directory of file being linted, then checking the user
+checking the source directory of file being linted, then by checking the user
 `$HOME` path.
 
 To specify a custom Markdownlint configuration path, create a **markdownlint**
