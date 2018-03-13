@@ -31,17 +31,6 @@ installed on your system. To install `markdownlint`, do the following:
 4. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plug-in for
    `oh-my-zsh`.
 
-### Markdownlint Configuration
-
-In order for `markdownlint` to be executed by SublimeLinter, you must ensure
-that its path is available to SublimeLinter. Before going any further, please
-read and follow the steps in ["Finding a linter executable"](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable)
-through "Validating your PATH" in the documentation.
-
-Once you have installed and configured `markdownlint`, you can proceed to
-install the SublimeLinter-contrib-markdownlint plug-in if it is not yet
-installed.
-
 ### Install Sublime Text Markdownlint
 
 Please use [Package Control][pc] to install Sublime Text Markdownlint. This will
@@ -61,13 +50,26 @@ To install via [Package Control][pc], do the following:
    should see `SublimeLinter-contrib-markdownlint`. If that entry is not
    highlighted, use the keyboard or mouse to select it.
 
-### Sublime Text Markdownlint Configuration
+### Markdownlint Configuration Files
 
-Configuring the plug-in is done through [linter settings][linter-settings].
+Markdownlint configuration files (`.markdownlintrc`) are resolved first by
+checking the source directory of file being linted, then checking the user
+`$HOME` path.
 
-To ensure `markdownlint` configuration is accessible to the plug-in, use
-[`chdir` setting] to ensure `markdownlint` is executed relative to your
-configuration file.
+To specify a custom Markdownlint configuration path, create a **markdownlint**
+section under **linters** in your SublimeLinter User Settings
+(`SublimeLinter.sublime- settings`). Then add an `args` key with the appropriate
+path to your `--config` file. For example:
+
+```json
+{
+    "linters": {
+        "markdownlint": {
+            "args": ["--config", "/custom/path/to/.markdownlintrc"]
+        }
+    }
+}
+```
 
 ## Contributing
 
