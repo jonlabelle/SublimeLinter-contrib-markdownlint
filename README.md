@@ -98,15 +98,13 @@ Jon LaBelle
 [MIT License]
 
 [SublimeLinter]: http://www.sublimelinter.com
-[docs]: http://sublimelinter.readthedocs.org
-[installation]: http://sublimelinter.readthedocs.org/en/latest/installation.html
-[locating-executables]: http://sublimelinter.readthedocs.org/en/latest/usage.html#how-linter-executables-are-located
+[docs]: http://www.sublimelinter.com
+[installation]: http://www.sublimelinter.com
+[locating-executables]: http://www.sublimelinter.com/en/latest/troubleshooting.html#finding-a-linter-executable
 [pc]: https://packagecontrol.io/packages/SublimeLinter-contrib-markdownlint
 [cmd]: http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html
-[settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html
-[linter-settings]: http://sublimelinter.readthedocs.org/en/latest/linter_settings.html
-[inline-settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html#inline-settings
-[`chdir` setting]: http://sublimelinter.readthedocs.io/en/latest/linter_settings.html#chdir
+[settings]: http://www.sublimelinter.com/en/latest/settings.html
+[linter-settings]: http://www.sublimelinter.com/en/latest/linter_settings.html
 [markdownlint]: https://github.com/DavidAnson/markdownlint
 [`markdownlint`]: https://github.com/DavidAnson/markdownlint
 [CLI]: https://github.com/igorshubovych/markdownlint-cli
