@@ -58,7 +58,7 @@ checking the source directory of file being linted, then checking the user
 
 To specify a custom Markdownlint configuration path, create a **markdownlint**
 section under **linters** in your SublimeLinter User Settings
-(`SublimeLinter.sublime- settings`). Then add an `args` key with the appropriate
+(`SublimeLinter.sublime-settings`). Then add an `args` key with the appropriate
 path to your `--config` file. For example:
 
 ```json
