@@ -97,9 +97,9 @@ Jon LaBelle
 
 [MIT License]
 
-[SublimeLinter]: http://www.sublimelinter.com
-[docs]: http://www.sublimelinter.com
-[installation]: http://www.sublimelinter.com
+[SublimeLinter]: http://www.sublimelinter.com/en/latest/
+[docs]: http://www.sublimelinter.com/en/latest/
+[installation]: http://www.sublimelinter.com/en/latest/
 [locating-executables]: http://www.sublimelinter.com/en/latest/troubleshooting.html#finding-a-linter-executable
 [pc]: https://packagecontrol.io/packages/SublimeLinter-contrib-markdownlint
 [cmd]: http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html
