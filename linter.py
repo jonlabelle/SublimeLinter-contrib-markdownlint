@@ -21,10 +21,6 @@ class MarkdownLint(NodeLinter):
     cmd = ('markdownlint', '${args}', '${file}')
     npm_name = 'markdownlint'
     config_file = ('--config', '.markdownlintrc')
-    version_args = '--version'
-    version_re = r'(?P<version>\d+\.\d+\.\d+)'
-    version_requirement = '>= 0.6.0'
-    check_version = True
     regex = r'.+?[:]\s(?P<line>\d+)[:]\s(?P<error>MD\d+)?[/]?(?P<message>.+)'
     multiline = False
     line_col_base = (1, 1)
