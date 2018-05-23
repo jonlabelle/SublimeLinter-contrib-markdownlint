@@ -97,14 +97,14 @@ Jon LaBelle
 
 [MIT License]
 
-[SublimeLinter]: http://www.sublimelinter.com/en/latest/
-[docs]: http://www.sublimelinter.com/en/latest/
-[installation]: http://www.sublimelinter.com/en/latest/
-[locating-executables]: http://www.sublimelinter.com/en/latest/troubleshooting.html#finding-a-linter-executable
+[SublimeLinter]: http://www.sublimelinter.com/en/stable/
+[docs]: http://www.sublimelinter.com/en/stable/
+[installation]: http://www.sublimelinter.com/en/stable/
+[locating-executables]: http://www.sublimelinter.com/en/stable/troubleshooting.html#finding-a-linter-executable
 [pc]: https://packagecontrol.io/packages/SublimeLinter-contrib-markdownlint
 [cmd]: http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html
-[settings]: http://www.sublimelinter.com/en/latest/settings.html
-[linter-settings]: http://www.sublimelinter.com/en/latest/linter_settings.html
+[settings]: http://www.sublimelinter.com/en/stable/settings.html
+[linter-settings]: http://www.sublimelinter.com/en/stable/linter_settings.html
 [markdownlint]: https://github.com/DavidAnson/markdownlint
 [`markdownlint`]: https://github.com/DavidAnson/markdownlint
 [CLI]: https://github.com/igorshubovych/markdownlint-cli
