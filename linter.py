@@ -16,6 +16,7 @@ from SublimeLinter.lint import NodeLinter, util
 
 class MarkdownLint(NodeLinter):
     """Provides an interface to markdownlint."""
+
     defaults = {
         'selector': 'text.html.markdown,'
                     'text.html.markdown.multimarkdown,'
