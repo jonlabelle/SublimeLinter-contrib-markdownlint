@@ -16,8 +16,12 @@ from SublimeLinter.lint import NodeLinter, util
 
 class MarkdownLint(NodeLinter):
     """Provides an interface to markdownlint."""
-
-    syntax = ('markdown', 'markdown gfm', 'multimarkdown', 'markdown extended')
+    defaults = {
+        'selector': 'text.html.markdown,'
+                    'text.html.markdown.multimarkdown,'
+                    'text.html.markdown.extended,'
+                    'text.html.markdown.gfm'
+    }
     cmd = ('markdownlint', '${args}', '${file}')
     npm_name = 'markdownlint'
     config_file = ('--config', '.markdownlintrc')
