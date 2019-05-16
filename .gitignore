@@ -4,7 +4,5 @@
 __pycache__
 node_modules
 *.html
-/tmp/
-/.idea/
-/.scannerwork/
-/.env
+tmp/
+.idea/

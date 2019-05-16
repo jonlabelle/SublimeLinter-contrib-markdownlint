@@ -11,14 +11,8 @@ insert_final_newline = true
 [*.py]
 max_line_length = 120
 
-[{Context.sublime-menu,JsPrettier.sublime-commands,JsPrettier.sublime-settings}]
-indent_style = tab
-
-[*.{json,yml}]
+[*.yml]
 indent_size = 2
 
-[{*.cmd,appveyor.yml}]
-end_of_line = crlf
-
 [*.{md,txt}]
-trim_trailing_whitespaces = false
+trim_trailing_whitespace = false
