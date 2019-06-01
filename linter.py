@@ -24,7 +24,6 @@ class MarkdownLint(NodeLinter):
                     'text.html.markdown.gfm'
     }
     cmd = ('markdownlint', '${args}', '${file}')
-    npm_name = 'markdownlint'
     config_file = ('--config', '.markdownlintrc')
     regex = r'.+?[:]\s(?P<line>\d+)[:]\s(?P<error>MD\d+)?[/]?(?P<message>.+)'
     multiline = False
@@ -32,4 +31,3 @@ class MarkdownLint(NodeLinter):
     tempfile_suffix = '-'
     error_stream = util.STREAM_STDERR
     word_re = None
-    comment_re = r'\s*/[/*]'
