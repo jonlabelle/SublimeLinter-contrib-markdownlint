@@ -24,7 +24,6 @@ class MarkdownLint(NodeLinter):
                     'text.html.markdown.gfm'
     }
     cmd = ('markdownlint', '${args}', '${file}')
-    config_file = ('--config', '.markdownlintrc')
     regex = r'.+?[:]\s(?P<line>\d+)[:]\s(?P<error>MD\d+)?[/]?(?P<message>.+)'
     multiline = False
     line_col_base = (1, 1)
