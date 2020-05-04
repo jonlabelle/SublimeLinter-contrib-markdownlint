@@ -3,6 +3,7 @@
 [![build status](https://github.com/jonlabelle/SublimeLinter-contrib-markdownlint/workflows/ci/badge.svg?branch=master)](https://github.com/jonlabelle/SublimeLinter-contrib-markdownlint/actions "build status")
 [![Package Control Installs](https://img.shields.io/packagecontrol/dt/SublimeLinter-contrib-markdownlint.svg?label=installs)](https://packagecontrol.io/packages/SublimeLinter-contrib-markdownlint "Package Control Installs")
 [![Latest Version](https://img.shields.io/github/tag/jonlabelle/SublimeLinter-contrib-markdownlint.svg?label=version)](https://github.com/jonlabelle/SublimeLinter-contrib-markdownlint/releases "Latest Version")
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jonlabelle/SublimeLinter-contrib-markdownlint/blob/master/LICENSE.txt)
 
 > A Sublime Text plug-in for linting Markdown/CommonMark files.
 
